@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <style>
+        h1{
+            color: blue;
+
+        }
+        img{
+                display: inline-block;
+        }
+        .div1{
+            height:50px ;
+            margin: 10px;
+
+        }
+        body{
+            background-image:url('logo.jpg');
+            background-repeat:no-repeat;
+            background-attachment:scroll;
+            background-position:center;
+        }
+        .top-left{
+            position: fixed;
+            height: 50px;
+            width: 50px;
+            right:0px;
+        }
+        .top-right{
+            position: fixed;
+            height: 50px;
+            width: 50px;
+            right:0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <img src="logo.jpg" alt="earth" class="top-left">
+        <img src="logo.jpg" alt="earth" class="top-right">
+    </div>
+    <center>
+        <marquee behavior="" direction="">
+            <img src="logo.jpg" width="50" height="50">
+            <h1>Welcome to CSS</h1>
+        </marquee>
+     </center>
+</body>
+</html>
